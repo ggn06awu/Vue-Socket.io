@@ -1,4 +1,4 @@
-# Vue-Socket.io
+# Vue-Socket.io - Vuex Namespace Fork
 
 [![NPM version](https://img.shields.io/npm/v/vue-socket.io.svg)](https://www.npmjs.com/package/vue-socket.io)
 ![VueJS v2 compatible](https://img.shields.io/badge/Vuejs%202-compatible-green.svg)
@@ -32,6 +32,16 @@ Enable Vuex integration
 import store from './yourstore'
 Vue.use(VueSocketio, socketio('http://socketserver.com:1923'), store);
 ```
+
+Enable Vuex integration for nested stores
+``` js
+import store from './yourstore'
+Vue.use(VueSocketio, socketio('http://socketserver.com:1923'), store, {
+    applyToNestedStores: true
+});
+```
+
+
 
 #### On Vuejs instance usage
 ``` js

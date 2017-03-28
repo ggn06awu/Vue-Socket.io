@@ -1,7 +1,7 @@
 {
-  "name": "vue-socket.io",
+  "name": "vue-socket-nuxt.io",
   "version": "2.1.0",
-  "description": "socket.io implemantation for vuejs and vuex",
+  "description": "socket.io implemantation for vuejs and vuex, supports nested vuex stores",
   "main": "dist/build.js",
   "scripts": {
     "build": "webpack --progress --hide-modules"
@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/MetinSeylan/Vue-Socket.io#readme",
   "dependencies": {
+    "lodash": "^4.17",
     "socket.io-client": "^1.4.6"
   },
   "devDependencies": {
