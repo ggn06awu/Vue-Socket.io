@@ -1,5 +1,5 @@
 {
-  "name": "vue-socket-nuxt.io",
+  "name": "vue-socket.io",
   "version": "2.1.0",
   "description": "socket.io implemantation for vuejs and vuex, supports nested vuex stores",
   "main": "dist/build.js",
